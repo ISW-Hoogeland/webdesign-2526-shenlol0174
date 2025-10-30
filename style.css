@@ -42,17 +42,30 @@
 }
 
 body {
-background-color: var(--color1);
+display: grid;
+grid-template-areas:
+"header"
+"nav"
+"main"
+"footer";
+grid-template-rows: 120px 60px 60px
 }
 header {
+grid-area: header;
+
 
 }
 nav {
-
+grid-area: nav;
 }
 main {
-
+grid-area: main;
 }
 footer {
+grid-area: footer;
+}
 
+h1 {
+   text-align: center;
+   color: var(--color1)
 }
