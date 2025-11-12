@@ -38,7 +38,9 @@
 :root {
     --color1: #f14c62;
     --color2: #ffffff; 
-    --color3:  #000000;
+    --color3:  #06aa7e;
+    --color4: #1f6740;
+
 }
 
 body {
@@ -48,24 +50,35 @@ grid-template-areas:
 "nav"
 "main"
 "footer";
-grid-template-rows: 120px 60px 60px
+grid-template-rows: 120px 60px 100px;
 }
 header {
 grid-area: header;
-
-
+background-color: #f14c62;
 }
 nav {
 grid-area: nav;
+display:flex;
+gap: 75px;
+background-color: #1f6740;
+align-items: center;
+}
+nav a{
+   text-decoration: none;
+}
+nav a:hover {
+   text-decoration: underline;
 }
 main {
 grid-area: main;
+background-color: #06aa7e;
 }
 footer {
 grid-area: footer;
+background-color: #1f6740;
 }
 
 h1 {
    text-align: center;
-   color: var(--color1)
+   color: var(--color2)
 }
