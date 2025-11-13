@@ -59,7 +59,7 @@ background-color: #f14c62;
 nav {
 grid-area: nav;
 display:flex;
-gap: 75px;
+gap: 80px;
 background-color: #1f6740;
 align-items: center;
 }
