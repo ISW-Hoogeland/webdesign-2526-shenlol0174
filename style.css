@@ -36,10 +36,9 @@
 
 /* add your css here, feel free to use comments and order them logically for better readability */
 :root {
-    --color1: #f14c62;
-    --color2: #ffffff; 
-    --color3:  #06aa7e;
-    --color4: #1f6740;
+    --color1: #556B2F;
+    --color2: #D2B48C; 
+    --color3:  #C4A484;
 
 }
 
@@ -50,35 +49,34 @@ grid-template-areas:
 "nav"
 "main"
 "footer";
-grid-template-rows: 120px 60px 100px;
+grid-template-rows: 120px 60px 1fr 60px;
 }
 header {
 grid-area: header;
-background-color: #f14c62;
+background-color: var(--color1)
 }
 nav {
 grid-area: nav;
-display:flex;
-gap: 80px;
-background-color: #1f6740;
-align-items: center;
+background-color: var(--color2);
 }
-nav a{
-   text-decoration: none;
-}
-nav a:hover {
-   text-decoration: underline;
+nav ul {
+display: flex;
+list-style: none;
+justify-content: center;
+gap: 75px;
 }
 main {
 grid-area: main;
-background-color: #06aa7e;
+background-color: var(--color3);
+text-align: center;
 }
 footer {
 grid-area: footer;
-background-color: #1f6740;
+background-color: var(--color3);
 }
+
 
 h1 {
    text-align: center;
-   color: var(--color2)
+   color: var(#000000);
 }
