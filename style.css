@@ -80,3 +80,8 @@ h1 {
    text-align: center;
    color: var(#000000);
 }
+.afbeeldingen {
+   display: flex;
+   gap: 100px;
+   justify-content: space-evenly;
+}
