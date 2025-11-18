@@ -63,7 +63,7 @@ nav ul {
 display: flex;
 list-style: none;
 justify-content: center;
-gap: 100px;
+gap: 150px;
 }
 main {
 grid-area: main;
