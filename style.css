@@ -72,14 +72,13 @@ text-align: center;
 }
 footer {
 grid-area: footer;
-background-color: var(--color3);
+background-color: var(--color2);
 }
 
 
 h1 {
    text-align: center;
    color: var(#000000);
-}
 }
 .afbeeldingen {
    display: flex;
